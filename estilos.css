@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eaf8f7;
+    color: #294c56;
+    line-height: 1.7;
+}
+
+
+header {
+    background: linear-gradient(135deg, #165a72, #0d9a91);
+    color: white;
+    text-align: center;
+    padding: 30px 20px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    text-align: center;
+    margin: 8px 0 22px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav a {
+    background-color: white;
+    color: #17677a;
+    text-decoration: none;
+    padding: 9px 16px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    background-color: #bdebe3;
+}
+
+
+main {
+    max-width: 920px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 35px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    border-top: 5px solid #0d9a91;
+}
+
+h2 {
+    color: #087f8c;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+
+main a {
+    color: #087f8c;
+    font-weight: bold;
+}
+
+main a:hover {
+    color: #165a72;
+}
+
+
+footer {
+    background-color: #165a72;
+    color: white;
+    padding: 18px;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    nav {
+        gap: 8px;
+    }
+
+    nav a {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    section {
+        padding: 22px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+}
